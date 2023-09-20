@@ -1,0 +1,141 @@
+body {background-image:url(fundo2.png);
+      background-repeat:repeat-y;
+	  background-size:cover; 
+	  background-attachment: fixed;
+}
+@font-face {
+  font-family: 'spaceage';
+  src: url('spaceage.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StarTrek';
+  src: url('StarTrek.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mandalore';
+  src: url('mandalore.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#texto1{
+			width:500px;
+			height:600px;
+			color:white;
+			text-align:center;
+			font-size:50px;
+			margin:20px auto;
+			padding-top: 100px;
+			font-family: spaceage, Palatino Linotype, arial;
+			
+}
+
+
+#texto2{
+			width:700px;
+			height:80px;
+			color:black;
+			text-align:center;
+			font-size:120px;
+			margin:25px auto;
+			font-family: mandalore;
+		    .spaceship
+            color: #fff;
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+			animation: neon-blink 1s ease-in-out infinite alternate;
+}
+
+#texto3{
+	width:1200px;
+	height:0px;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	font-size:35px;
+	margin:10px auto;
+	font-family:   arial;
+	text-shadow: -1px 0 white, 0 1px white,
+	1px 0 white, 0 -1px white
+}
+
+@keyframes neon-blink {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+  }
+  to {
+    text-shadow: none;
+  }
+}
+
+			
+			
+#img1{
+		background-image:url();
+		width:320px;
+		height:270px;
+		position:absolute;
+		top:108%; right:4%;
+		background-size:100% 100%;
+		}
+
+#img2{
+		background-image:url();
+		width:600px;
+		height:1090px;
+		position:absolute;
+		top:5%; left:0%;
+		background-size:100% 100%;
+}
+		
+#img4{
+		background-image:url(entradadados.jpg);
+		width:700px;
+		height:700px;
+		position:absolute;
+		top:90%; left:27%;	
+		background-size:100% 100%;
+		padding: 
+		}
+		
+		
+#img3{
+		background-image:url();
+		width:1000px;
+		height:200px;
+		position:absolute;
+		margin: auto;
+		top:240%; right:15%;
+		background-size:100% 100%;
+		}
+		
+#img6{
+		background-image:url();
+		width:275px;
+		height:250px;
+		position:absolute;
+		top:25%; right:5%;
+		background-size:100% 100%;
+		}		
+		
+#img7{
+		background-image:url(cyberpunk.png);
+		width:275px;
+		height:250px;
+		position:absolute;
+		top:72%; right:5%;
+		background-size:100% 100%;
+		}
+		
+
+<p id="img1"> </P>
+   <p id="img2"> </P>
+   <p id="img3"> </P>
+   <p id="img4"> </P>
+   <p id="img6"> </P>
+   <p id="img7"> </P>

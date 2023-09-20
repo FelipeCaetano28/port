@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+	<link rel="stylesheet" href="port.css" type="text/css">
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+h3, h2 {font-family: 'Diplomata SC', monospace;}
+* {
+    box-sizing: border-box; 
+	/* 	border-box = A propriedade CSS box-sizing é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos. */
+}
+
+body {font-family: Arial;
+    padding: 10px;
+    background-image:url(fundo01.png);
+    background: #AF79D8;
+}
+
+
+header { /* parte superior */
+    padding: 20px;
+    text-align: center;
+    background-image:url(fundoStarlink.jpg);
+    background-size: 100% 100%;
+}
+
+header h1 {
+            font-size: 70px;
+	        width:center;
+			height:40px;
+			color:#75027D;
+			font-weight: bold;
+			text-align:center;
+			font-family: mandalore, Palatino Linotype, arial;
+			text-shadow: -2px 0 #11FF00, 0 2px #11FF00,
+            2px 0 #11FF00, 0 -2px #11FF00
+}
+header h2 {
+            width:center;
+			height:0px;
+			color:black;
+			font-weight: bold;
+			text-align:center;
+			font-size:35px;
+            font-family: hamilton, Palatino Linotype, arial;
+			text-shadow: -1px 0 white, 0 1px white,
+            1px 0 white, 0 -1px white
+}
+
+/* overflow: hidden - O valor hidden é utilizado quando queremos esconder a parte de um elemento para que ele não passe do tamanho determinado. Geralmente é utilizado junto das propriedades width e height.. */
+.menu {
+    overflow:hidden; 
+    background-color: black;
+    background-size: 100%;
+    
+    
+}
+
+
+.menu a {
+    float: left; 
+    display: block; 
+    color: #f2f2f2;
+    padding: 14px 29px; /* altura e largura */
+    text-decoration: none; 
+}
+
+
+.menu a:hover { 
+    background-color: #ddd;
+    color: black;
+}
+
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+    color: white;
+	}
+
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background: #AF79D8;
+    padding-left: 20px;
+    color: white;
+}
+
+
+.class1 {
+    background-image:url(react.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:50%;
+    padding: 20px;
+}
+.class2{
+    background-image:url(felipe.jpg);
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:60%;
+	height:50%;
+    padding:20px;
+    
+}
+.class21{
+    background-image:url(tucci.jpg);
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:60%;
+	height:50%;
+    padding:20px;
+}
+
+.class3{
+    background-image:url(imagemProva.png);
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:50%;
+    padding:20px;
+}
+
+.class4{
+    background-image:url(heroisTucci.png);
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:50%;
+    padding:20px;
+}
+
+.class5{
+    background-image:url();
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:50%;
+    padding:20px;
+}
+
+.class6{
+    background-image:url(cyberpunk.png);
+    background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width:100%;
+	height:50%;
+    padding:20px;
+}
+
+.card {
+    background-image:url(fundo01.png);
+    background-color: rgb(124, 0, 152);
+    padding: 20px;
+    margin-top: 20px;
+	height:40%;
+    
+    
+}
+
+.row::after {	
+    content: ""; 
+	/* ::after é um pseudo elemento. Colocar algo após. */
+    display: table;
+    clear: both; 
+	/* clear both: É usado quando não há necessidade de nenhum elemento flutuar no lado esquerdo e direito */
+} 
+
+
+footer { 
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    background-image:url(fundo01.png);
+    margin-top: 20px;
+	font-size:10px;
+	color: white;
+}
+
+/* tablet */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* celular */
+@media screen and (max-width: 400px) {
+    .menu a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<body>
+<header>
+  <p id="texto2"> Portifólio </P>
+  <h2><p>por </p> </h2>
+  <h2><p>Felipe Caetano / Henrique Tucci</p> </h2>
+</header>
+
+<div class="menu">
+  
+ 
+  <a href="PrimeiroProjeto/Projeto01.html"target="_blank">Projeto 01</a>
+  <a href="SegundoProjeto/Projeto02.html"target="_blank">Projeto 02</a>
+  <a href="TerceiroProjeto/Projeto03.html"target="_blank">Projeto 03</a>
+  <a href="QuartoProjeto/Projeto04.html"target="_blank">Projeto 04</a> 
+  <a href="QuintoProjeto/Projeto05.html"target="_blank">Projeto 05</a> 
+  <a href="SextoProjeto/Projeto06.html"target="_blank">Projeto 06</a> 
+  <a href="ProvaProjeto/ProjetoProva.html"target="_blank">Projeto Prova</a> 
+  
+  <!-- <a href="#" style="float:right">fim</a> -->
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Apresentação</h2>
+      <h5>O objetivo deste portifólio é apresentar de forma integral todo conteúdo criado e aprendido na diciplina de programação de aplicativos mobile, 
+	  mostrando os pormenores, funcionamento e evolução de nosso aprendizado feito em React.</h5>
+      <div class="class1" style="height:500px;"></div>
+      <!-- <p></p> -->
+      <!-- <p></p> -->
+    </div>
+    <div class="card">
+      <!-- <h2></h2> -->
+      <!-- <h5></h5> -->
+      <div class="class5" style="height:1800px; width:500px; background-size:100% 100;"></div>
+      
+      <!-- <p></p> -->
+      <!-- <p></p> -->
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Sobre Nós</h2>
+      <div class="class2" style="height:100px;"></div>
+      <p>Felipe Caetano Freitas Silva </p>
+	  <p>33 anos</p>
+	  <p> Estudante de Desenvolvimento de Sistemas </p> <br>
+	  <div class="class21" style="height:100px;"></div>
+	  <p>Henrique Tucci de Almeida </p>
+	  <p>21 anos</p>
+	  <p> Estudante de Desenvolvimento de Sistemas </p> 
+    </div>
+    <div class="card">
+      <h3>Imagens</h3>
+      <div class="class3" style="height:500px;"></div>
+      <div class="class6" style="height:500px;"></div>
+      <div class="class4" style="height:500px;"></div>
+    </div>
+    
+    <div class="card">
+      <h3>Felipe Caetano Freitas Silva</h3>
+      <p>Instagram: @fcaetanofs</p>
+	  <p>E-mail: fcaetanofs@gmail.com</p>
+	   <h3>Henrique Tucci de Almeida</h3>
+       <p>Instagram: @tucc7k</p>
+	  <p>E-mail: henrique02tucci@hotmail.com</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <h2>- Todos os direitos reservados - </h2>
+</footer>
+
+</body>
+
+</html>
